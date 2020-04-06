@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet">
+    <style>
+        #area {
+            height: 500px;
+            width: 1000px;
+            margin: auto;
+            vertical-align: middle;
+            margin-top: 9px;
+            margin-bottom: 9px;
+        }
+        #border{
+            margin-top: 50px;
+            height: 518px;
+            width: 1018px;
+            border: 1px solid black;
+        }
+        .block {
+            position: absolute;
+            width: 20px;
+            height: 20px;
+        
+        }
+
+        .green {
+            background-color: green;
+            left: 100px;
+            top: 100px;
+            z-index: 1;
+        }
+
+        .black {
+            background-color: black;
+            left: 150px;
+            top: 150px;
+            z-index: 1;
+        }
+
+        .yellow {
+            background-color: yellow;
+            left: 200px;
+            top: 200px;
+            z-index: 1;
+        }
+
+        .blue {
+            background-color: blue;
+            left: 250px;
+            top: 250px;
+            z-index: 1;
+        }
+    </style>
+    <title></title>
+</head>
+
+<body id="body">
+    <div id="border">
+    <div id="area">
+        <div class="green block" id="0"></div>
+        <div class="black block" id="1"></div>
+        <div class="yellow block" id="2"></div>
+        <div class="blue block" id="3"></div>
+    </div>
+    </div>
+    <script src="ex9.2.js"></script>
+</body>
+
+</html>
