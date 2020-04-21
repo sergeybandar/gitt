@@ -1,0 +1,43 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#chainBlock{
+    width: 100%;
+}
+table{
+    width: 60%;
+    margin: auto;
+}
+th {
+font-size: 18px;
+font-weight: normal;
+background: #b9c9fe;
+border-top: 8px solid #aabcfe;
+border-bottom: 3px solid #fff;
+color: #039;
+padding: 12px;
+}
+td {
+background: #e8edff;
+border-bottom: 3px solid #fff;
+color: #669;
+border-top: 3px solid transparent;
+padding: 12px;
+}
+tr:hover td {background: #ccddff;}
+td,th:firstChild{
+width: 5%;
+}
+#trShop td{
+background-color: #ffe8d4;
+}
+#center{
+text-align: center;
+}
+#trShop.thShop th{
+background-color:  #f6b73c;
+border-top: 8px solid #f6b73c;
+}
+#trShop.common td{
+background-color: #fae8bb;
+}
