@@ -1,0 +1,51 @@
+.wrapper {
+    width: 80%;
+    margin: auto;
+}
+
+.coords {
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.weather {
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+table {
+    width: 100%;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 18px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th,
+td:first-child {
+    background: #AFCDE7;
+    color: white;
+    padding: 20px 40px;
+}
+
+th,
+td {
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    border-color: white;
+}
+
+td {
+    background: #D8E6F3;
+}
+
+.coords td {
+    background: #D8E6F3;
+    color: black;
+}
+
+.weather tr td:first-child {
+    text-align: left;
+}
