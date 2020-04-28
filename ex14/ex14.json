@@ -1,0 +1,74 @@
+[
+    {
+        "name": "451° по Фаренгейту",
+        "word": 204800,
+        "year": 1953,
+        "author": "Рей Брэдбери",
+        "language": "русский",
+        "publisher": "publisher1"
+    },
+    {
+        "name": "1984",
+        "word": 256000,
+        "year": 1949,
+        "author": "Джордж Оруэлл",
+        "language": "русский",
+        "publisher": "publisher2"
+    },
+    {
+        "name": "Шантарам",
+        "word": 691200,
+        "year": 2003,
+        "author": "Грегори Дэвид Робертс",
+        "language": "русский",
+        "publisher": "publisher3"
+    },
+    {
+        "name": "Мастер и Маргарита",
+        "word": 396800,
+        "year": 1967,
+        "author": "Михаил Булгаков",
+        "language": "русский",
+        "publisher": "publisher1"
+    },
+    {
+        "name": "Три товарища",
+        "word": 307200,
+        "year": 1936,
+        "author": "Эрих Мария Ремарк",
+        "language": "русский",
+        "publisher": "publisher2"
+    },
+    {
+        "name": "Цветы для Элджернона",
+        "word": 256000,
+        "year": 1959,
+        "author": "Даниел Киз",
+        "language": "русский",
+        "publisher": "publisher3"
+    },
+    {
+        "name": "Портрет Дориана Грея",
+        "word": 256000,
+        "year": 1890,
+        "author": "Оскар Уайльд",
+        "language": "русский",
+        "publisher": "publisher1"
+    },
+    {
+        "name": "Властелин колец",
+        "word": 1356800,
+        "year": 1954,
+        "author": "Джон Рональд Руэл Толкин",
+        "language": "русский",
+        "publisher": "publisher2"
+    },
+    {
+        "name": "Хоббит, или Туда и обратно",
+        "word": 248000,
+        "year": 1937,
+        "author": "Джон Рональд Руэл Толкин",
+        "language": "русский",
+        "publisher": "publisher3"
+    }
+]
