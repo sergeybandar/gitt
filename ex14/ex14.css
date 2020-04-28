@@ -1,0 +1,109 @@
+.wrapper {
+    width: 80%;
+    margin: auto;
+}
+
+table {
+    width: 100%;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 14px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th,
+td:first-child {
+    background: #AFCDE7;
+    color: white;
+    padding: 10px 20px;
+}
+
+th,
+td {
+    background: #e8edff;
+    border-bottom: 3px solid #fff;
+    color: #669;
+    border-top: 3px solid transparent;
+    padding: 12px;
+}
+
+td {
+    background: #D8E6F3;
+}
+
+.headLibraryTr th:first-child,
+td:first-child {
+    text-align: left;
+}
+
+.headLibraryTr th {
+    font-size: 18px;
+    font-weight: normal;
+    background: #b9c9fe;
+    border-top: 8px solid #aabcfe;
+    border-bottom: 3px solid #fff;
+    color: #039;
+    padding: 12px;
+}
+
+.trBody td {
+    background-color: #ffe8d4;
+}
+
+.trBody td:first-child {
+    background-color: #F5D7BF;
+    color: #039;
+}
+#librarys #trHead th{
+    background: #b9c9fe;
+    color: white;
+    color: #039;;
+}
+#publisher tr:first-child th {
+    background: #f6b73c;
+    color: white;
+    border: 2px solid white;
+    border-bottom: 3px solid white;
+    color: black;
+
+}
+#publisher #trHead th {
+    background: #f6b73c;
+    color: white;
+    border: 2px solid white;
+    border-bottom: 3px solid white;
+    color: #039;
+
+}
+#publisher td {
+    background: #F5D7BF;
+    border: 2px solid white;
+    border-bottom: 3px solid white;
+    color: #039;
+    text-align: center;
+}
+
+input[type=text] {
+    background-color: #ffe8d4;
+    border-radius: 4px;
+    height: 25px;
+    color: #039;
+}
+
+input[type=text]:focus {
+    border: 3px solid #b9c9fe;
+
+}
+
+input::-webkit-input-placeholder {
+    color: #039;
+}
+
+select {
+    width: 100%;
+    padding: 8px 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #ffe8d4;
+    color: #039;
+}
