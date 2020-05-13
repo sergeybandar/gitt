@@ -50,15 +50,6 @@ class App {
         });
     }
 
-    displayBrewery(item) {
-        modal.style.display = 'block';
-        const container = this.elem.querySelector('#details-content');
-        container.innerHTML = `
-            <h3><a href="${item.website_url}">${item.name}</a></h3>
-            <p>${item.country}, ${item.city}, ${item.street}</p>
-        `;
-    }
-
     getPoints() {
         return new Promise(function (result, reject) {
             const xhr = new XMLHttpRequest();
