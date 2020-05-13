@@ -1,0 +1,32 @@
+body{
+    font-family: Avenir, 'Helvetica Neue', 'Lato', 'Segoe UI', Helvetica, Arial, sans-serif;
+}
+#map {
+    width: 100%;
+    height: 100vh;
+}
+
+#log {
+    width: 360px;
+    height: 200px;
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+    opacity: 0.99;
+    padding: 5px;
+    font-family: Courier, sans-serif;
+    font-size: 14px;
+    background: white;
+    overflow: auto;
+}
+
+#log div {
+    width: 320px;
+    margin: auto;
+    margin-top: 35px;
+}
+
+#time {
+    width: 320px;
+    margin: auto;
+}
